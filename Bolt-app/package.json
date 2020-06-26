@@ -1,0 +1,25 @@
+{
+  "name": "bolt-app",
+  "version": "1.0.0",
+  "description": "Node js y Mongo db, Conexion con react native y arduino",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "connect-flash": "^0.1.1",
+    "express": "^4.17.1",
+    "express-session": "^1.17.1",
+    "method-override": "^3.0.0",
+    "mongoose": "^5.9.19",
+    "mongoose-unique-validator": "^2.0.3",
+    "save": "^2.4.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}

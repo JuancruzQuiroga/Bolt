@@ -1,0 +1,8 @@
+Index.js es el servidor, database. js me conecta con la base de datos.
+La carpeta models es como se va a organizar la base de datos.
+La carpeta routes van a ser nuestras apis, cuando el frontend/hardware me pregunte o postee algo, routes lo va a detectar.
+Controllers es una carpeta en la cual voy a crear las funciones dependiendo de la ruta que me solicite el frontend/hardware.
+En resumen...
+Index.js es el servidor, ahi redirigir al frontend y hardware a las rutas que tengo en routes. En controllers voy a crear las funcionalidades
+que precise cada ruta, por ejemplo, api/random pide un codigo random, entonces en random.controller le devuelvo un numero random.
+Models es el modelo de nuestra base de datos, vamos a tener tres colecciones, users, estaciones y baterias.
